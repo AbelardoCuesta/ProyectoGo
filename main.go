@@ -1,9 +1,9 @@
 package main
 
 import (
-	"example.com/m/ejercicios"
+	"example.com/m/funciones"
 )
 
 func main() {
-	ejercicios.MultiplicoNumeros()
+	funciones.Exponencia(2)
 }
