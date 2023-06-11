@@ -1,9 +1,9 @@
 package main
 
 import (
-	"example.com/m/teclado"
+	"example.com/m/ejercicios"
 )
 
 func main() {
-teclado.IngresoNumeros()
+	ejercicios.MultiplicoNumeros()
 }
