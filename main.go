@@ -1,12 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"example.com/m/ejercicios"
+	"example.com/m/teclado"
 )
 
 func main() {
-	numero, texto:=ejercicios.Devolver("2")
-	fmt.Println(numero)
-	fmt.Println(texto)
+teclado.IngresoNumeros()
 }
