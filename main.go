@@ -2,12 +2,11 @@ package main
 
 import (
 	"fmt"
-
-	"example.com/m/variables"
+	"example.com/m/ejercicios"
 )
 
 func main() {
-	variables.ConvertirTexto(13)
-	fmt.Println(variables.ConvertirTexto(13))
-
+	numero, texto:=ejercicios.Devolver("2")
+	fmt.Println(numero)
+	fmt.Println(texto)
 }
