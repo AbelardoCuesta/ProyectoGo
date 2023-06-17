@@ -1,9 +1,9 @@
 package main
 
 import (
-	"example.com/m/funciones"
+	"example.com/m/arreglos_slices"
 )
 
 func main() {
-	funciones.Exponencia(2)
+	arreglos_slices.MuestroSlice()
 }
