@@ -1,9 +1,9 @@
 package main
 
 import (
-	"example.com/m/arreglos_slices"
+	"example.com/m/mapas"
 )
 
 func main() {
-	arreglos_slices.MuestroSlice()
+	mapas.MostrarMapas()
 }
