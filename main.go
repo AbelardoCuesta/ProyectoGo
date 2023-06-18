@@ -1,9 +1,9 @@
 package main
 
 import (
-	"example.com/m/mapas"
+	"example.com/m/users"
 )
 
 func main() {
-	mapas.MostrarMapas()
+	users.AltaUsuario()
 }
