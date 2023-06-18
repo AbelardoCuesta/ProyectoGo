@@ -1,9 +1,14 @@
 package main
 
 import (
-	"example.com/m/users"
+	"example.com/m/ejer_interfaces"
+	"example.com/m/modelos"
 )
 
 func main() {
-	users.AltaUsuario()
+	u := new(modelos.Hombre)
+
+	ejer_interfaces.HumanosRespirando(u)
 }
+
+
